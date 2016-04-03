@@ -1,0 +1,29 @@
+.gump{
+  display: none;
+}
+.hunting{
+  display: none;
+}
+.gladiator{
+  display: none;
+}
+button{
+  margin: 50px;
+  border-radius: 50%
+
+}
+img{
+  float: left;
+  margin: 15px;
+}
+.huntingPicture{
+  float:right;
+
+}
+html{
+  background-color: #6AACB5;
+}
+h1{
+  font-family: Impact;
+  text-align: center;
+}
