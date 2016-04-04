@@ -22,13 +22,13 @@ $(".gump").append('<img src=\'forrestimage.jpeg\'>');
 $(".hunting").append('<img class=\"huntingPicture\" src=\'goodwillimage.jpeg\'>');
 $(".gladiator").append('<img class=\"gladiatorPicture\" src=\'gladiatorimage.jpg\'>')
 $(".gumpButton").on("click",function(){
-  $(".gump").toggle();
+  $(".gump").toggle("slow");
 });
 $(".huntingButton").on("click",function(){
-  $(".hunting").toggle();
+  $(".hunting").toggle("slow");
 });
 $(".gladiatorButton").on("click",function(){
-  $(".gladiator").toggle();
+  $(".gladiator").toggle("slow");
 });
 $(".catThing").on("click",function(){
   $.get("http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=nyan+cat").done(function(response){
